@@ -20,7 +20,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 400px;
+    gap: 360px;
     /* flex-wrap: nowrap; */
     font-family: Roboto;
     background-color: #1f2937;
@@ -43,8 +43,12 @@ a {
 
 .header div {
     /* border: 1px solid red; */
+    width: 400px;
+    height: 40px;
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .header-2 {
