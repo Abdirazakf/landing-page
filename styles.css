@@ -109,21 +109,93 @@ a {
 }
 
 .body-1 {
-    border: 1px solid red;
-    height: 200px;
+    /* border: 1px solid red; */
+    height: 300px;
+    padding: 30px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-1-header {
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.body-1-container {
+    /* border: 1px solid red; */
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body-1-content {
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.body-1-content-box {
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 150px;
+    height: 130px;
+}
+
+.body-1-content-text{
+    width: 150px;
+    text-align: center;
 }
 
 .body-2 {
-    border: 1px solid red;
-    height: 200px;
+    /* border: 1px solid red; */
+    height: 300px;
+    padding: 80px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    /* border: 1px solid red; */
+    width: 750px;
+    height: 160px;
+    font-size: 36px;
+    font-family: Light Italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.quote-author {
+    /* border: 1px solid red; */
+    text-align: right;
+    width: 720px;
+    font-size: 24px;
+    font-weight: 700;
 }
 
 .body-3 {
     height: 100px;
     display: flex;
     justify-content: center;
-    padding: 80px 0 80px 0; 
-    border: 1px solid red;
+    padding: 50px 0 50px 0; 
+    /* border: 1px solid red; */
 }
 
 .body-3-content {
@@ -162,9 +234,10 @@ a {
 }
 
 .footer {
-    height: 400px;
+    height: 200px;
     /* border: 1px solid red; */
     margin-top: auto;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
