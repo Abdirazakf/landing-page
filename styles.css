@@ -18,9 +18,9 @@ a {
     /* border: 1px solid red; */
     height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 400px;
     /* flex-wrap: nowrap; */
     font-family: Roboto;
     background-color: #1f2937;
@@ -31,7 +31,6 @@ a {
     /* border: 1px solid red; */
     font-size: 24px;
     font-weight: bolder;
-    margin-left: 510px;
     flex-shrink: 0;
 }
 
@@ -42,12 +41,10 @@ a {
     /* border: 1px solid red; */
 }
 
-.header-link-one {
-    margin-left:auto;
-}
-
-.header-link-three {
-    margin-right: 510px;
+.header div {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
 }
 
 .header-2 {
